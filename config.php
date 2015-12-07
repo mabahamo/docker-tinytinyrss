@@ -3,7 +3,7 @@
 	// *** Database configuration (important!) ***
 	// *******************************************
 
-	define('DB_TYPE', $_ENV['DB_TYPE']); // or mysql
+	define('DB_TYPE', 'pgsql'); // or mysql
 	define('DB_HOST', $_ENV['DB_HOST']);
 	define('DB_USER', $_ENV['DB_USER']);
 	define('DB_NAME', $_ENV['DB_NAME']);
